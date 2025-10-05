@@ -1,0 +1,6 @@
+#requirements.txt
+
+fastapi
+uvicorn[standard]
+pandas
+numpy # Needed for p95 calculation (pandas relies on it)
